@@ -104,8 +104,9 @@ html {
 body {
     font-family: 'Quicksand', sans-serif;
     padding: 2em;
-    font-size: 1.25em;
+    font-size: 0.75em;
     height: 100%;
+    text-align: justify;
 }
 
 .wrapper {
@@ -119,15 +120,16 @@ body {
 .div-2,
 .div-3 {
     /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-    color: #fff;
+    color: #000000;
     line-height: 1.5em;
     font-size: 1.6em;
-    background-color: #f16059;
+    background-color: #ffffff;
     height: 300px;
     display: flex;
     width: 30%;
     justify-content: center;
     align-items: center;
+    border: 10px dotted rgb(38, 154, 156); 
 }
 
 
