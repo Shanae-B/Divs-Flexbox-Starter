@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #ffffff;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -87,7 +87,7 @@ textarea {
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
-    color: #000;
+    color: #ffffff;
     padding: 0.2em 0;
 }
 
@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-    background-color: #fff;
+    background-color: #534963;
     height: 100%;
 }
 
@@ -109,27 +109,49 @@ body {
     text-align: justify;
 }
 
+header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+}
+
+main {
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    border-top: dashed #ffffff;
+    border-bottom: dashed #ffffff;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
 .wrapper {
     /*add display:flex and set justify-content to space-between*/
     font-weight: 700;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     justify-content: space-between;
+
 }
 
 .div-1,
 .div-2,
 .div-3 {
     /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-    color: #000000;
+    color: #ffffff;
     line-height: 1.5em;
     font-size: 1.6em;
-    background-color: #ffffff;
+    background-color:  #534963;
     height: 300px;
     display: flex;
     width: 30%;
     justify-content: center;
     align-items: center;
-    border: 10px dotted rgb(38, 154, 156); 
+    border: 10px double rgb(255, 255, 255);
+    padding: 0 12px;
+    justify-content: space-between;
 }
 
 
