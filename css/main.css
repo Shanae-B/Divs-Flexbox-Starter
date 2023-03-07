@@ -118,8 +118,8 @@ main {
 
     font-family: 'Quicksand', sans-serif;
     font-size: 24px;
-    border-top: dashed #ffffff;
-    border-bottom: dashed #ffffff;
+    border-top: double #ffffff;
+    border-bottom: double #ffffff;
     margin-bottom: 20px;
     padding: 20px 0;
     text-align: center;
@@ -136,6 +136,26 @@ main {
 
 }
 
+footer {
+
+    width: 100%;
+    margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px solid #fff;
+
+}
+
+footer i {
+    padding: 30px 20px 0 0;
+  }
+
+span {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
+
+}
+
 .div-1,
 .div-2,
 .div-3 {
@@ -149,9 +169,15 @@ main {
     width: 30%;
     justify-content: center;
     align-items: center;
-    border: 10px double rgb(255, 255, 255);
     padding: 0 12px;
     justify-content: space-between;
+}
+
+.div-1,
+.div-2 {
+
+    border-right: 5px double rgb(255, 255, 255);
+
 }
 
 
